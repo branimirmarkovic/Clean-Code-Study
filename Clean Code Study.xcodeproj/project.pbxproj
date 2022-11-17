@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXFileReference section */
+		22375FAB292668AF00A419DD /* Functions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Functions.swift; sourceTree = "<group>"; };
 		229D71182922725A00CFA869 /* MeaningfulNames.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeaningfulNames.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -15,6 +16,7 @@
 			isa = PBXGroup;
 			children = (
 				229D71182922725A00CFA869 /* MeaningfulNames.swift */,
+				22375FAB292668AF00A419DD /* Functions.swift */,
 			);
 			sourceTree = "<group>";
 		};
