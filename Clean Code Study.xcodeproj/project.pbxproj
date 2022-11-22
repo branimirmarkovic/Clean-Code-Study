@@ -8,6 +8,7 @@
 
 /* Begin PBXFileReference section */
 		22375FAB292668AF00A419DD /* Functions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Functions.swift; sourceTree = "<group>"; };
+		22375FAC2926884800A419DD /* Comments.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Comments.swift; sourceTree = "<group>"; };
 		229D71182922725A00CFA869 /* MeaningfulNames.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeaningfulNames.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -17,6 +18,7 @@
 			children = (
 				229D71182922725A00CFA869 /* MeaningfulNames.swift */,
 				22375FAB292668AF00A419DD /* Functions.swift */,
+				22375FAC2926884800A419DD /* Comments.swift */,
 			);
 			sourceTree = "<group>";
 		};
