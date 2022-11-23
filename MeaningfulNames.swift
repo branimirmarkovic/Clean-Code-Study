@@ -44,16 +44,6 @@ class klass {}
 
 // Avoid non informative naming
 
-func copyString(a1: String, a2: String) {
-    a2 = a1
-}
-// Solution Example
-func copyString (source: String, destination: String) {
-    destination = source
-}
-func copyString(from source: String, to destination: String) {
-    destination = source
-}
 
 // In swift there is wide variety of syntax features to name parameters in functions or to omit them if they are not necessary.
 
@@ -78,8 +68,8 @@ struct Product1 {
 // “Make your names pronounceable.“If you can’t pronounce it, you can’t discuss it without sounding strange.”
 // Always write full words, do not use made up words.
 
-let resDatDic: [String: Any]
-let responseDataDictionary: [String: Any]
+let resDatDic: [String: Data] = [:]
+let responseDataDictionary: [String: Data] = [:]
 
 // MARK: - Use Searchable Names 
 
@@ -87,9 +77,10 @@ let responseDataDictionary: [String: Any]
 // It is hard to search for example variable "e" in file because that letter is most common in English language and it is likely to show up in every passage of text in every source file.
 
 //“single-letter names can ONLY be used as local variables inside short methods. The length of a name should correspond to the size of its scope
-
-for i in 0...10 {
-    print("\(i)")
+func foo() {
+    for i in 0...10 {
+        print("\(i)")
+    }
 }
 
 // MARK: - Pick one Word per Concept

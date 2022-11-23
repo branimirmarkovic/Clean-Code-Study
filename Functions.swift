@@ -86,7 +86,7 @@ func showError() {
 // MARK: - Common Monadic Forms
 // Doing logic and returnig value
 
-func numberOfLetters(in message:String) -> Int {}
+func numberOfLetters(in message:String) -> Int { message.count }
 // Event is form when there is an input argument but no output argument”
 func shwoMessage(_ message:String) {}
 
@@ -94,7 +94,7 @@ func shwoMessage(_ message:String) {}
 
 func numberOfLetterss(in message:String) {} // No return value, where is this number that functions is calculating??
 
-func showMessage(_message: String) -> Int {} //What is this return int, it is not clear from function name and parameters.
+func showMessage(_message: String) -> Int { 1 } //What is this return int, it is not clear from function name and parameters.
 
 // MARK: - Flag Arguments
 
@@ -180,6 +180,10 @@ func logIn(userName: String, password: String, completion: () -> Void) {
         completion()
     }
 }
+func userNameIsValid() -> Bool {Bool.random()}
+func passwordIsValid() -> Bool {Bool.random()}
+func logIn() {}
+func startLoggerSession() {}
 
 // MARK: - Command Query Separation
 
