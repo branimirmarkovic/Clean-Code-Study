@@ -72,7 +72,6 @@ func showError() {
 
 //  It’s also hard to make a switch statement that does one thing. By their nature, switch statements always do N things. Unfortunately we can’t always avoid switch statements, but we can make sure that each switch statement is buried in a low-level class and is never repeated. We do this, of course, with polymorphism”
 
-#warning("Do this better")
 
 // MARK: - Use Descriptive Names
 
