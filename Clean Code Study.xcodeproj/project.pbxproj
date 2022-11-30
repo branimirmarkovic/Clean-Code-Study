@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		22150ECE29379BD900B1FCD6 /* ErrorHandling.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22150ECD29379BD900B1FCD6 /* ErrorHandling.swift */; };
+		22150ED02937A42C00B1FCD6 /* Boundaries.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22150ECF2937A42C00B1FCD6 /* Boundaries.swift */; };
 		22F15644292E8CC100BF92A4 /* Build.docc in Sources */ = {isa = PBXBuildFile; fileRef = 22F15643292E8CC100BF92A4 /* Build.docc */; };
 		22F1564A292E8CC100BF92A4 /* Build.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 22F1563F292E8CC100BF92A4 /* Build.framework */; };
 		22F1564F292E8CC100BF92A4 /* BuildTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22F1564E292E8CC100BF92A4 /* BuildTests.swift */; };
@@ -32,6 +33,7 @@
 
 /* Begin PBXFileReference section */
 		22150ECD29379BD900B1FCD6 /* ErrorHandling.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorHandling.swift; sourceTree = "<group>"; };
+		22150ECF2937A42C00B1FCD6 /* Boundaries.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Boundaries.swift; sourceTree = "<group>"; };
 		22375FAB292668AF00A419DD /* Functions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Functions.swift; sourceTree = "<group>"; };
 		22375FAC2926884800A419DD /* Comments.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Comments.swift; sourceTree = "<group>"; };
 		229D71182922725A00CFA869 /* MeaningfulNames.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeaningfulNames.swift; sourceTree = "<group>"; };
@@ -69,6 +71,7 @@
 		229D71112922719E00CFA869 = {
 			isa = PBXGroup;
 			children = (
+				22150ECF2937A42C00B1FCD6 /* Boundaries.swift */,
 				22150ECD29379BD900B1FCD6 /* ErrorHandling.swift */,
 				22F15662292E8F4300BF92A4 /* Objects and Data Structures.swift */,
 				229D71182922725A00CFA869 /* MeaningfulNames.swift */,
@@ -233,6 +236,7 @@
 				22F15644292E8CC100BF92A4 /* Build.docc in Sources */,
 				22F15659292E8CD100BF92A4 /* MeaningfulNames.swift in Sources */,
 				22F15657292E8CD100BF92A4 /* Functions.swift in Sources */,
+				22150ED02937A42C00B1FCD6 /* Boundaries.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
