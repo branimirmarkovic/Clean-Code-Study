@@ -9,6 +9,9 @@
 /* Begin PBXBuildFile section */
 		22150ECE29379BD900B1FCD6 /* ErrorHandling.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22150ECD29379BD900B1FCD6 /* ErrorHandling.swift */; };
 		22150ED02937A42C00B1FCD6 /* Boundaries.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22150ECF2937A42C00B1FCD6 /* Boundaries.swift */; };
+		22150ED22937AE2B00B1FCD6 /* UnitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22150ED12937AE2B00B1FCD6 /* UnitTests.swift */; };
+		22A1E834294376780034CF86 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 22A1E833294376780034CF86 /* XCTest.framework */; };
+		22A1E835294376780034CF86 /* XCTest.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 22A1E833294376780034CF86 /* XCTest.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		22F15644292E8CC100BF92A4 /* Build.docc in Sources */ = {isa = PBXBuildFile; fileRef = 22F15643292E8CC100BF92A4 /* Build.docc */; };
 		22F1564A292E8CC100BF92A4 /* Build.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 22F1563F292E8CC100BF92A4 /* Build.framework */; };
 		22F1564F292E8CC100BF92A4 /* BuildTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22F1564E292E8CC100BF92A4 /* BuildTests.swift */; };
@@ -31,12 +34,28 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		22A1E836294376780034CF86 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				22A1E835294376780034CF86 /* XCTest.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
 		22150ECD29379BD900B1FCD6 /* ErrorHandling.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorHandling.swift; sourceTree = "<group>"; };
 		22150ECF2937A42C00B1FCD6 /* Boundaries.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Boundaries.swift; sourceTree = "<group>"; };
+		22150ED12937AE2B00B1FCD6 /* UnitTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnitTests.swift; sourceTree = "<group>"; };
 		22375FAB292668AF00A419DD /* Functions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Functions.swift; sourceTree = "<group>"; };
 		22375FAC2926884800A419DD /* Comments.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Comments.swift; sourceTree = "<group>"; };
 		229D71182922725A00CFA869 /* MeaningfulNames.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeaningfulNames.swift; sourceTree = "<group>"; };
+		22A1E833294376780034CF86 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Platforms/MacOSX.platform/Developer/Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		22F15639292CD34400BF92A4 /* Formatting.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Formatting.swift; sourceTree = "<group>"; };
 		22F1563F292E8CC100BF92A4 /* Build.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Build.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		22F15642292E8CC100BF92A4 /* Build.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Build.h; sourceTree = "<group>"; };
@@ -54,6 +73,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				22F1565E292E8D6B00BF92A4 /* UIKit.framework in Frameworks */,
+				22A1E834294376780034CF86 /* XCTest.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -71,6 +91,7 @@
 		229D71112922719E00CFA869 = {
 			isa = PBXGroup;
 			children = (
+				22150ED12937AE2B00B1FCD6 /* UnitTests.swift */,
 				22150ECF2937A42C00B1FCD6 /* Boundaries.swift */,
 				22150ECD29379BD900B1FCD6 /* ErrorHandling.swift */,
 				22F15662292E8F4300BF92A4 /* Objects and Data Structures.swift */,
@@ -114,6 +135,7 @@
 		22F1565B292E8D5D00BF92A4 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				22A1E833294376780034CF86 /* XCTest.framework */,
 				22F15661292E8D7C00BF92A4 /* libswiftUIKit.tbd */,
 				22F1565C292E8D5E00BF92A4 /* UIKit.framework */,
 			);
@@ -142,6 +164,7 @@
 				22F1563B292E8CC100BF92A4 /* Sources */,
 				22F1563C292E8CC100BF92A4 /* Frameworks */,
 				22F1563D292E8CC100BF92A4 /* Resources */,
+				22A1E836294376780034CF86 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -230,6 +253,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				22F15658292E8CD100BF92A4 /* Formatting.swift in Sources */,
+				22150ED22937AE2B00B1FCD6 /* UnitTests.swift in Sources */,
 				22F15663292E8F4300BF92A4 /* Objects and Data Structures.swift in Sources */,
 				22150ECE29379BD900B1FCD6 /* ErrorHandling.swift in Sources */,
 				22F1565A292E8CD100BF92A4 /* Comments.swift in Sources */,
